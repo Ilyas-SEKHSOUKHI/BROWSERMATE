@@ -1,8 +1,7 @@
 # BROWSERMATE
-BROWSERMATE est un assistant web en CLI développé en Python qui permet d’ouvrir des plateformes web et d’effectuer des recherches automatiquement via Selenium, directement depuis le terminal.
 
 <p align="center">
-  <img src="Image.jpeg" width="260" alt="BROWSERMATE Logo">
+  <img src="Image.jpeg" width="500" alt="BROWSERMATE Logo">
 </p>
 
 # 🚀 BROWSERMATE
