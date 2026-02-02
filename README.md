@@ -11,35 +11,47 @@
 ![CLI](https://img.shields.io/badge/Type-CLI-orange)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
-**BROWSERMATE** est un assistant web en **ligne de commande (CLI)** écrit en **Python**.  
-Il utilise **Selenium WebDriver** pour automatiser l’ouverture de plateformes web et écrire automatiquement dans les champs (recherches, messages, etc.) directement depuis le terminal.
+**BROWSERMATE** is a **command-line (CLI) web assistant** written in **Python**.  
+It uses **Selenium WebDriver** to automate opening web platforms and automatically typing into input fields (searches, messages, etc.) directly from the terminal.
+
+---
+
+## 🎥 Demo Video
+
+Watch the full demo of **BROWSERMATE** on YouTube:
+
+👉 **https://www.youtube.com/watch?v=YOUR_VIDEO_ID**
+
+[![BROWSERMATE Demo]](https://www.youtube.com/watch?v=tsjP-vVs9v0)
+
+> Replace `YOUR_VIDEO_ID` with your actual YouTube video ID.
 
 ---
 
 ## ✨ Features
 
-- ✅ Ouvre automatiquement une plateforme web
-- ✅ Recherche automatique sur **YouTube**
-- ✅ Recherche automatique sur **Wikipedia (FR)**
-- ✅ Envoi automatique d’un message sur **ChatGPT** *(connexion requise)*
-- ✅ Interface simple et rapide dans le terminal
-- ✅ Facile à étendre avec d’autres plateformes
+- ✅ Automatically opens a web platform
+- ✅ Automatic search on **YouTube**
+- ✅ Automatic search on **Wikipedia (FR)**
+- ✅ Automatically sends a message to **ChatGPT** *(login required)*
+- ✅ Simple and fast terminal interface
+- ✅ Easy to extend with additional platforms
 
 ---
 
-## 🌍 Plateformes supportées
+## 🌍 Supported Platforms
 
-| Plateforme  | Action |
-|------------|--------|
-| YouTube     | Recherche |
-| Wikipedia   | Recherche |
-| ChatGPT     | Envoi de message |
+| Platform   | Action |
+|-----------|--------|
+| YouTube    | Search |
+| Wikipedia  | Search |
+| ChatGPT    | Send message |
 
-⚠️ **Note ChatGPT :** tu dois être déjà connecté à ChatGPT sur ton navigateur, sinon le champ de texte peut ne pas être détecté.
+⚠️ **ChatGPT note:** You must already be logged in to ChatGPT in your browser, otherwise the input field may not be detected.
 
 ---
 
-## 📦 Prérequis
+## 📦 Requirements
 
 - Python **3.9+**
 - Google Chrome
@@ -49,7 +61,7 @@ Il utilise **Selenium WebDriver** pour automatiser l’ouverture de plateformes 
 
 ## ⚙️ Installation
 
-### 1) Cloner le projet
+### 1) Clone the project
 ```bash
 git clone https://github.com/Ilyas-SEKHSOUKHI/BROWSERMATE.git
 cd BROWSERMATE
