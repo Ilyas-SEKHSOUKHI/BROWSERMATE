@@ -20,13 +20,8 @@ It uses **Selenium WebDriver** to automate opening web platforms and automatical
 
 Watch the full demo of **BROWSERMATE** on YouTube:
 
-👉 **https://www.youtube.com/watch?v=YOUR_VIDEO_ID**
+[![BROWSERMATE Demo](https://img.youtube.com/vi/tsjP-vVs9v0/0.jpg)](https://www.youtube.com/watch?v=tsjP-vVs9v0)
 
-[![BROWSERMATE Demo]](https://www.youtube.com/watch?v=tsjP-vVs9v0)
-
-> Replace `YOUR_VIDEO_ID` with your actual YouTube video ID.
-
----
 
 ## ✨ Features
 
