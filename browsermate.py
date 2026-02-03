@@ -8,7 +8,7 @@ print(r"""
 """)
 
 print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-print(" BROWSERMATE v1.0 | Navigation rapide depuis Terminal")
+print("BROWSERMATE v1.0 | Quick navigation from the terminal")
 print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
 
 from selenium import webdriver
@@ -49,34 +49,34 @@ def ChatGPT(A):
         input_box.send_keys(A)
         input_box.send_keys(Keys.ENTER)
     except:
-        print("Impossible de trouver la zone de chat. Vérifie que tu es connecté.")
+        print("Unable to find the chat area. Please check that you are logged in.")
 
     return driver
 
-UserInput = input("BROWSERMATE ➜ Plateforme à ouvrir : ")
+UserInput = input("BROWSERMATE ➜ Platform to open : ")
 B = UserInput.lower()
 
 driver = None  
 
 if B == "youtube":
-    Chercher = input("BROWSERMATE ➜ Que veux-tu rechercher ? : ")
+    Chercher = input("BROWSERMATE ➜ What would you like to search for ? : ")
     driver = Youtube(Chercher)
 
 elif B == "wikipedia":
-    Chercher = input("BROWSERMATE ➜ Que veux-tu rechercher ? : ")
+    Chercher = input("BROWSERMATE ➜ What would you like to search for ? : ")
     driver = Wikipedia(Chercher)
 
 elif B == "chatgpt":
-    Chercher = input("BROWSERMATE ➜ Que veux-tu demander à ChatGPT ? : ")
+    Chercher = input("BROWSERMATE ➜ What would you like to ask ChatGPT ? : ")
     driver = ChatGPT(Chercher)
 
 
 else:
-    print("Plateforme non disponible actuellement.")
-    print("Cette plateforme sera ajoutée bientôt.")
+    print("Platform currently unavailable.")
+    print("This platform will be added soon.")
 
 
-input("Appuie sur Entrée pour fermer le navigateur...")
+input("Press Enter to close the browser...")
 
 if driver is not None:
     driver.quit()
